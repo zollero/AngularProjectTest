@@ -1,16 +1,14 @@
 
 
-define(["directives/directives"], function(directives) {
+define(["./directives"], function(directives) {
     "use strict";
 
+    console.log("app-version=============");
+
     directives.directive("appVersion", ["version", function(version) {
+
         return function(scope, element) {
             element.text(version);
         };
     }]);
-    //directives.directive("appVersion", ["$scope", function($scope) {
-    //    return function(scope, element) {
-    //        element.text(1);
-    //    };
-    //}]);
 });

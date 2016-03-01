@@ -1,6 +1,4 @@
-//require('./directives');
-//module.exports = directives;
 
 define(["./app-version"], function() {
-
+    console.log("directive/index=========");
 });

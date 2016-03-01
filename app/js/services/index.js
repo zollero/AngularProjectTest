@@ -1,6 +1,3 @@
-//require('./services');
-//module.exports = services;
 
-//define(["./version"], function() {
-//
-//});
+define(["./version"], function() {
+});

@@ -24,10 +24,10 @@ require(["app", "bootstrap", "controllers/controllers",
 
     return app.config(["$routeProvider", function($routeProvider) {
         $routeProvider.when("/view1", {
-            templateUrl: "./view1/view1.html",
+            templateUrl: "./views/view1.html",
             controller: "MyCtrl1"
         }).when("/view2", {
-            templateUrl: "./view2/view2.html",
+            templateUrl: "./views/view2.html",
             controller: "MyCtrl2"
         }).otherwise({
             redirectTo: "view1"

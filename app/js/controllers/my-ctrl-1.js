@@ -1,9 +1,11 @@
 
 
-define(["controllers/controllers"], function(controllers) {
+define(["./controllers"], function(controllers) {
     "use strict";
 
+    console.log("ctrl1=========");
+
     controllers.controller("MyCtrl1",["$scope", function($scope) {
-        $scope.version = "0.0.1";
+
     }]);
 });

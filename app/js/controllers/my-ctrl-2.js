@@ -6,6 +6,6 @@ define(["./controllers"], function(controllers) {
     console.log("ctrl2=========");
 
     controllers.controller("MyCtrl2", ["$scope", function($scope) {
-
+        console.log("222===")
     }]);
 });

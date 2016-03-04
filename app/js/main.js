@@ -2,9 +2,9 @@
 console.log("===============main.js:start================");
 require.config({
     paths: {
-        angular: "../bower_components/angular/angular",
-        "angular-route": "../bower_components/angular-route/angular-route",
-        "domReady": "../bower_components/domReady/domReady"
+        angular: "../lib/angular/angular",
+        "angular-route": "../lib/angular-route/angular-route",
+        "domReady": "../lib/domReady/domReady"
     },
     shim: {
         "angular": {
